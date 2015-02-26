@@ -48,6 +48,22 @@ table {
 }
 
 
+/*just for organization */
+body{
+	background-color: LightGray;
+}
+div{
+	border: 1px solid Chocolate;
+}
+/*---------------------------- */
 
-
+/*navigation section */
+.top-navigation{
+	background-color:#fff;
+}
+.top-navigation > .content{
+	width: 811px;
+	height: 70px;
+	margin: 0 auto;
+}
 
