@@ -57,12 +57,14 @@ table {
 
 
 /*just for organization */
+/*
 body{
-	background-color: LightGray;
+	background-color: lightgray;
 }
 div{
 	border: 1px solid Chocolate;
 }
+*/
 /*---------------------------- */
 
 /* font for heading */
@@ -157,12 +159,13 @@ a:active {
 .introduction h1{
 	margin-top: 17.5rem;
 	font-size: 3.125rem;
-	color:white;
+	color: white;
 }
-.introduction h3{
+.introduction .content h3{
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
-	color:white;
+	color: white;
+	font-weight: 100;
 }
 .big-button {
 	text-shadow: none;
@@ -209,4 +212,36 @@ a:active {
 }
 .devices img{
 	margin-bottom: 2rem;
+}
+.icons li{
+	display: inline-block;
+}
+.icons .fa-twitter, .fa-instagram, .fa-facebook {
+	border: 1px solid #eaebec;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	display: center-block;
+	margin: 1.25rem 5px;
+	padding-top: 10px;
+}
+.icons .fa-twitter{
+	color: #55acee;
+}
+.icons .fa-facebook{
+	color: #4c66a4;
+}
+.icons .fa-instagram{
+	color: #3f729b;
+}
+.copyright{
+	color: #eaebec;
+	padding-bottom: 8rem;
+}
+.icons li:hover { 
+	cursor: pointer;
+}
+.caption h3{
+	margin: 12px;
 }
