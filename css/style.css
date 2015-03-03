@@ -102,6 +102,11 @@ a:active {
 /*navigation section */
 .top-navigation{
 	background-color:#fff;
+	position:fixed;
+	width: 100%;
+	z-index: 9999;
+	opacity: 1;
+	filter: alpha(opacity=40);
 }
 .top-navigation > .content{
 	width: 811px;
@@ -110,6 +115,7 @@ a:active {
 }
 .logo{
 	height: 70px;
+	float: left;
 }
 .links{
 	float: right;
@@ -147,15 +153,16 @@ a:active {
 	font-size: 2rem;
 	font-family: 'Roboto', sans-serif; 
 	font-weight: 300;
-	color:white;
 }
 .introduction h1{
 	margin-top: 17.5rem;
 	font-size: 3.125rem;
+	color:white;
 }
 .introduction h3{
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
+	color:white;
 }
 .big-button {
 	text-shadow: none;
@@ -173,4 +180,33 @@ a:active {
     background-color: #d9400e;
 	border-color: #cf3d0e;
 	cursor: pointer;
+}
+/* midsection - cases */
+
+.cases .devices {
+	width: 200%;
+	display: inline-block;
+	/* for debugging?*/	
+	display: flex;
+	flex-direction: row;
+}
+.content{
+	color: black;
+	text-align: center;
+}
+.content h2{
+	margin-top: 100px;
+	font-size: 2.5rem;
+	font-weight: 100;
+}
+.content h3{
+	font-size: 1.5rem;
+}
+.devices {
+	display: inline-block;
+	text-align: center;
+	margin: 50px;
+}
+.devices img{
+	margin-bottom: 2rem;
 }
